@@ -1,0 +1,22 @@
+{
+  "name": "classifier-camera-example",
+  "version": "1.0.0",
+  "description": "Runs a Edge Impulse machine learning model example in your workspace to be classified with your device camera.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipedmsantos95/classifier-camera-example.git"
+  },
+  "author": "Felipe Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipedmsantos95/classifier-camera-example/issues"
+  },
+  "homepage": "https://github.com/felipedmsantos95/classifier-camera-example#readme",
+  "dependencies": {
+    "edge-impulse-linux": "^1.3.9"
+  }
+}
