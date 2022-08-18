@@ -4,7 +4,7 @@
   "description": "Runs a Edge Impulse machine learning model example in your workspace to be classified with your device camera.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "node index.js modelfile.eim"
   },
   "repository": {
     "type": "git",
