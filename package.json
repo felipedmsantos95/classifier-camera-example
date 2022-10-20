@@ -4,7 +4,9 @@
   "description": "Runs a Edge Impulse machine learning model example in your workspace to be classified with your device camera.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js modelfile.eim"
+    "start": "node index.js modelfile.eim",
+    "start-raspi": "node index.js modelfile.eim \"mmal service 16.1\"",
+    "download": "edge-impulse-linux-runner --download modelfile.eim"
   },
   "repository": {
     "type": "git",
